@@ -1,0 +1,21 @@
+img{
+    height: 10rem;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.apenasImg {
+    text-align: center;
+}
+
+@media (max-width: 900) {
+    header {
+        flex-direction: column;
+    }
+
+    img{
+        max-width: 60%;
+    }
+}
